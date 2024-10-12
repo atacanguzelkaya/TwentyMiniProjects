@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="dd22ff6b8651422ab0b7959eac1bed0a" Name="Diagram1">
+        <EntityTypeShape EntityType="Db3Project20Model.sysdiagrams" Width="1.5" PointX="10.125" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Db3Project20Model.TblCategory" Width="1.5" PointX="1.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Db3Project20Model.TblCustomer" Width="1.5" PointX="8" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Db3Project20Model.TblOrder" Width="1.5" PointX="5.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Db3Project20Model.TblProduct" Width="1.5" PointX="3.5" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="Db3Project20Model.FK_TblProduct_TblCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="Db3Project20Model.FK_TblOrder_TblCustomer" ManuallyRouted="false" />
+        <AssociationConnector Association="Db3Project20Model.FK_TblOrder_TblProduct" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
