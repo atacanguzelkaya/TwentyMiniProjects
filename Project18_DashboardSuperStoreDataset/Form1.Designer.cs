@@ -28,55 +28,58 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
-			System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-			System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-			System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
-			System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-			System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-			System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
-			System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea6 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-			System.Windows.Forms.DataVisualization.Charting.Legend legend6 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-			System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+			System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+			System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+			System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+			System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+			System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+			System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+			System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+			System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+			System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
 			this.panel1 = new System.Windows.Forms.Panel();
+			this.label2 = new System.Windows.Forms.Label();
 			this.lblProductCount = new System.Windows.Forms.Label();
 			this.label1 = new System.Windows.Forms.Label();
 			this.panel2 = new System.Windows.Forms.Panel();
+			this.label3 = new System.Windows.Forms.Label();
 			this.lblCityCount = new System.Windows.Forms.Label();
 			this.label4 = new System.Windows.Forms.Label();
 			this.panel3 = new System.Windows.Forms.Panel();
+			this.label5 = new System.Windows.Forms.Label();
 			this.lblOrderQuantity = new System.Windows.Forms.Label();
 			this.label6 = new System.Windows.Forms.Label();
 			this.panel4 = new System.Windows.Forms.Panel();
+			this.label7 = new System.Windows.Forms.Label();
 			this.lblOrderbyTurkiye = new System.Windows.Forms.Label();
 			this.label8 = new System.Windows.Forms.Label();
 			this.groupBox1 = new System.Windows.Forms.GroupBox();
+			this.label10 = new System.Windows.Forms.Label();
+			this.label9 = new System.Windows.Forms.Label();
 			this.groupBox2 = new System.Windows.Forms.GroupBox();
+			this.label11 = new System.Windows.Forms.Label();
 			this.groupBox3 = new System.Windows.Forms.GroupBox();
+			this.label14 = new System.Windows.Forms.Label();
+			this.label13 = new System.Windows.Forms.Label();
 			this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
 			this.groupBox4 = new System.Windows.Forms.GroupBox();
+			this.label15 = new System.Windows.Forms.Label();
 			this.groupBox5 = new System.Windows.Forms.GroupBox();
 			this.chart2 = new System.Windows.Forms.DataVisualization.Charting.Chart();
 			this.chart3 = new System.Windows.Forms.DataVisualization.Charting.Chart();
-			this.label2 = new System.Windows.Forms.Label();
-			this.label3 = new System.Windows.Forms.Label();
-			this.label5 = new System.Windows.Forms.Label();
-			this.label7 = new System.Windows.Forms.Label();
-			this.label9 = new System.Windows.Forms.Label();
-			this.label10 = new System.Windows.Forms.Label();
-			this.label11 = new System.Windows.Forms.Label();
 			this.label12 = new System.Windows.Forms.Label();
+			this.button4 = new System.Windows.Forms.Button();
+			this.button3 = new System.Windows.Forms.Button();
+			this.button2 = new System.Windows.Forms.Button();
+			this.button1 = new System.Windows.Forms.Button();
+			this.pictureBox7 = new System.Windows.Forms.PictureBox();
 			this.pictureBox6 = new System.Windows.Forms.PictureBox();
 			this.pictureBox5 = new System.Windows.Forms.PictureBox();
 			this.pictureBox4 = new System.Windows.Forms.PictureBox();
 			this.pictureBox3 = new System.Windows.Forms.PictureBox();
 			this.pictureBox2 = new System.Windows.Forms.PictureBox();
 			this.pictureBox1 = new System.Windows.Forms.PictureBox();
-			this.label13 = new System.Windows.Forms.Label();
-			this.pictureBox7 = new System.Windows.Forms.PictureBox();
-			this.label14 = new System.Windows.Forms.Label();
-			this.label15 = new System.Windows.Forms.Label();
-			this.button1 = new System.Windows.Forms.Button();
 			this.panel1.SuspendLayout();
 			this.panel2.SuspendLayout();
 			this.panel3.SuspendLayout();
@@ -89,13 +92,13 @@
 			this.groupBox5.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.chart2)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.chart3)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
 			this.SuspendLayout();
 			// 
 			// panel1
@@ -109,6 +112,17 @@
 			this.panel1.Name = "panel1";
 			this.panel1.Size = new System.Drawing.Size(200, 100);
 			this.panel1.TabIndex = 0;
+			// 
+			// label2
+			// 
+			this.label2.AutoSize = true;
+			this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+			this.label2.ForeColor = System.Drawing.Color.White;
+			this.label2.Location = new System.Drawing.Point(14, 78);
+			this.label2.Name = "label2";
+			this.label2.Size = new System.Drawing.Size(116, 13);
+			this.label2.TabIndex = 2;
+			this.label2.Text = "Total product in system";
 			// 
 			// lblProductCount
 			// 
@@ -144,6 +158,17 @@
 			this.panel2.Size = new System.Drawing.Size(200, 100);
 			this.panel2.TabIndex = 1;
 			// 
+			// label3
+			// 
+			this.label3.AutoSize = true;
+			this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+			this.label3.ForeColor = System.Drawing.Color.White;
+			this.label3.Location = new System.Drawing.Point(17, 78);
+			this.label3.Name = "label3";
+			this.label3.Size = new System.Drawing.Size(72, 13);
+			this.label3.TabIndex = 4;
+			this.label3.Text = "Ordered cities";
+			// 
 			// lblCityCount
 			// 
 			this.lblCityCount.AutoSize = true;
@@ -177,6 +202,17 @@
 			this.panel3.Name = "panel3";
 			this.panel3.Size = new System.Drawing.Size(200, 100);
 			this.panel3.TabIndex = 1;
+			// 
+			// label5
+			// 
+			this.label5.AutoSize = true;
+			this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+			this.label5.ForeColor = System.Drawing.Color.White;
+			this.label5.Location = new System.Drawing.Point(22, 78);
+			this.label5.Name = "label5";
+			this.label5.Size = new System.Drawing.Size(63, 13);
+			this.label5.TabIndex = 5;
+			this.label5.Text = "Total orders";
 			// 
 			// lblOrderQuantity
 			// 
@@ -212,6 +248,17 @@
 			this.panel4.Size = new System.Drawing.Size(200, 100);
 			this.panel4.TabIndex = 1;
 			// 
+			// label7
+			// 
+			this.label7.AutoSize = true;
+			this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+			this.label7.ForeColor = System.Drawing.Color.White;
+			this.label7.Location = new System.Drawing.Point(20, 78);
+			this.label7.Name = "label7";
+			this.label7.Size = new System.Drawing.Size(85, 13);
+			this.label7.TabIndex = 6;
+			this.label7.Text = "Orders in Turkey";
+			// 
 			// lblOrderbyTurkiye
 			// 
 			this.lblOrderbyTurkiye.AutoSize = true;
@@ -245,6 +292,27 @@
 			this.groupBox1.TabIndex = 2;
 			this.groupBox1.TabStop = false;
 			// 
+			// label10
+			// 
+			this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+			this.label10.ForeColor = System.Drawing.Color.Black;
+			this.label10.Location = new System.Drawing.Point(50, 35);
+			this.label10.Name = "label10";
+			this.label10.Size = new System.Drawing.Size(382, 50);
+			this.label10.TabIndex = 4;
+			this.label10.Text = resources.GetString("label10.Text");
+			// 
+			// label9
+			// 
+			this.label9.AutoSize = true;
+			this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+			this.label9.ForeColor = System.Drawing.Color.Black;
+			this.label9.Location = new System.Drawing.Point(50, 12);
+			this.label9.Name = "label9";
+			this.label9.Size = new System.Drawing.Size(193, 16);
+			this.label9.TabIndex = 4;
+			this.label9.Text = "Super Store Data Analytics";
+			// 
 			// groupBox2
 			// 
 			this.groupBox2.Controls.Add(this.label11);
@@ -254,6 +322,17 @@
 			this.groupBox2.Size = new System.Drawing.Size(200, 104);
 			this.groupBox2.TabIndex = 3;
 			this.groupBox2.TabStop = false;
+			// 
+			// label11
+			// 
+			this.label11.AutoSize = true;
+			this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+			this.label11.ForeColor = System.Drawing.Color.Black;
+			this.label11.Location = new System.Drawing.Point(47, 12);
+			this.label11.Name = "label11";
+			this.label11.Size = new System.Drawing.Size(150, 16);
+			this.label11.TabIndex = 6;
+			this.label11.Text = "Country-Sales Graph";
 			// 
 			// groupBox3
 			// 
@@ -266,19 +345,41 @@
 			this.groupBox3.TabIndex = 4;
 			this.groupBox3.TabStop = false;
 			// 
+			// label14
+			// 
+			this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+			this.label14.ForeColor = System.Drawing.Color.Black;
+			this.label14.Location = new System.Drawing.Point(44, 32);
+			this.label14.Name = "label14";
+			this.label14.Size = new System.Drawing.Size(150, 69);
+			this.label14.TabIndex = 8;
+			this.label14.Text = "It is a graphic table containing the transaction priorities of sales. It has prio" +
+    "rities such as high, medium, low and normal.";
+			// 
+			// label13
+			// 
+			this.label13.AutoSize = true;
+			this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+			this.label13.ForeColor = System.Drawing.Color.Black;
+			this.label13.Location = new System.Drawing.Point(41, 12);
+			this.label13.Name = "label13";
+			this.label13.Size = new System.Drawing.Size(100, 16);
+			this.label13.TabIndex = 8;
+			this.label13.Text = "Priority graph";
+			// 
 			// chart1
 			// 
-			chartArea4.Name = "ChartArea1";
-			this.chart1.ChartAreas.Add(chartArea4);
-			legend4.Name = "Legend1";
-			this.chart1.Legends.Add(legend4);
+			chartArea1.Name = "ChartArea1";
+			this.chart1.ChartAreas.Add(chartArea1);
+			legend1.Name = "Legend1";
+			this.chart1.Legends.Add(legend1);
 			this.chart1.Location = new System.Drawing.Point(12, 271);
 			this.chart1.Name = "chart1";
 			this.chart1.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.SeaGreen;
-			series4.ChartArea = "ChartArea1";
-			series4.Legend = "Legend1";
-			series4.Name = "Series1";
-			this.chart1.Series.Add(series4);
+			series1.ChartArea = "ChartArea1";
+			series1.Legend = "Legend1";
+			series1.Name = "Series1";
+			this.chart1.Series.Add(series1);
 			this.chart1.Size = new System.Drawing.Size(438, 316);
 			this.chart1.TabIndex = 5;
 			this.chart1.Text = "chart1";
@@ -292,8 +393,21 @@
 			this.groupBox4.TabIndex = 3;
 			this.groupBox4.TabStop = false;
 			// 
+			// label15
+			// 
+			this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+			this.label15.ForeColor = System.Drawing.Color.Black;
+			this.label15.Location = new System.Drawing.Point(6, 13);
+			this.label15.Name = "label15";
+			this.label15.Size = new System.Drawing.Size(426, 50);
+			this.label15.TabIndex = 5;
+			this.label15.Text = resources.GetString("label15.Text");
+			// 
 			// groupBox5
 			// 
+			this.groupBox5.Controls.Add(this.button4);
+			this.groupBox5.Controls.Add(this.button3);
+			this.groupBox5.Controls.Add(this.button2);
 			this.groupBox5.Controls.Add(this.button1);
 			this.groupBox5.Location = new System.Drawing.Point(488, 521);
 			this.groupBox5.Name = "groupBox5";
@@ -303,115 +417,39 @@
 			// 
 			// chart2
 			// 
-			chartArea5.Name = "ChartArea1";
-			this.chart2.ChartAreas.Add(chartArea5);
-			legend5.Name = "Legend1";
-			this.chart2.Legends.Add(legend5);
+			chartArea2.Name = "ChartArea1";
+			this.chart2.ChartAreas.Add(chartArea2);
+			legend2.Name = "Legend1";
+			this.chart2.Legends.Add(legend2);
 			this.chart2.Location = new System.Drawing.Point(488, 271);
 			this.chart2.Name = "chart2";
 			this.chart2.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Pastel;
-			series5.ChartArea = "ChartArea1";
-			series5.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
-			series5.Legend = "Legend1";
-			series5.Name = "Series1";
-			this.chart2.Series.Add(series5);
+			series2.ChartArea = "ChartArea1";
+			series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
+			series2.Legend = "Legend1";
+			series2.Name = "Series1";
+			this.chart2.Series.Add(series2);
 			this.chart2.Size = new System.Drawing.Size(200, 141);
 			this.chart2.TabIndex = 6;
 			this.chart2.Text = "chart2";
 			// 
 			// chart3
 			// 
-			chartArea6.Name = "ChartArea1";
-			this.chart3.ChartAreas.Add(chartArea6);
-			legend6.Name = "Legend1";
-			this.chart3.Legends.Add(legend6);
+			chartArea3.Name = "ChartArea1";
+			this.chart3.ChartAreas.Add(chartArea3);
+			legend3.Name = "Legend1";
+			this.chart3.Legends.Add(legend3);
 			this.chart3.Location = new System.Drawing.Point(726, 271);
 			this.chart3.Name = "chart3";
 			this.chart3.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.SeaGreen;
-			series6.ChartArea = "ChartArea1";
-			series6.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Doughnut;
-			series6.Legend = "Legend1";
-			series6.Name = "Series1";
-			this.chart3.Series.Add(series6);
+			series3.ChartArea = "ChartArea1";
+			series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Doughnut;
+			series3.Legend = "Legend1";
+			series3.Name = "Series1";
+			this.chart3.Series.Add(series3);
 			this.chart3.Size = new System.Drawing.Size(200, 141);
 			this.chart3.TabIndex = 7;
 			this.chart3.Text = "chart3";
-			// 
-			// label2
-			// 
-			this.label2.AutoSize = true;
-			this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-			this.label2.ForeColor = System.Drawing.Color.White;
-			this.label2.Location = new System.Drawing.Point(14, 78);
-			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(116, 13);
-			this.label2.TabIndex = 2;
-			this.label2.Text = "Total product in system";
-			// 
-			// label3
-			// 
-			this.label3.AutoSize = true;
-			this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-			this.label3.ForeColor = System.Drawing.Color.White;
-			this.label3.Location = new System.Drawing.Point(17, 78);
-			this.label3.Name = "label3";
-			this.label3.Size = new System.Drawing.Size(72, 13);
-			this.label3.TabIndex = 4;
-			this.label3.Text = "Ordered cities";
-			// 
-			// label5
-			// 
-			this.label5.AutoSize = true;
-			this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-			this.label5.ForeColor = System.Drawing.Color.White;
-			this.label5.Location = new System.Drawing.Point(22, 78);
-			this.label5.Name = "label5";
-			this.label5.Size = new System.Drawing.Size(63, 13);
-			this.label5.TabIndex = 5;
-			this.label5.Text = "Total orders";
-			// 
-			// label7
-			// 
-			this.label7.AutoSize = true;
-			this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-			this.label7.ForeColor = System.Drawing.Color.White;
-			this.label7.Location = new System.Drawing.Point(20, 78);
-			this.label7.Name = "label7";
-			this.label7.Size = new System.Drawing.Size(85, 13);
-			this.label7.TabIndex = 6;
-			this.label7.Text = "Orders in Turkey";
-			// 
-			// label9
-			// 
-			this.label9.AutoSize = true;
-			this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-			this.label9.ForeColor = System.Drawing.Color.Black;
-			this.label9.Location = new System.Drawing.Point(50, 12);
-			this.label9.Name = "label9";
-			this.label9.Size = new System.Drawing.Size(193, 16);
-			this.label9.TabIndex = 4;
-			this.label9.Text = "Super Store Data Analytics";
-			// 
-			// label10
-			// 
-			this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-			this.label10.ForeColor = System.Drawing.Color.Black;
-			this.label10.Location = new System.Drawing.Point(50, 35);
-			this.label10.Name = "label10";
-			this.label10.Size = new System.Drawing.Size(382, 50);
-			this.label10.TabIndex = 4;
-			this.label10.Text = resources.GetString("label10.Text");
-			// 
-			// label11
-			// 
-			this.label11.AutoSize = true;
-			this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-			this.label11.ForeColor = System.Drawing.Color.Black;
-			this.label11.Location = new System.Drawing.Point(47, 12);
-			this.label11.Name = "label11";
-			this.label11.Size = new System.Drawing.Size(150, 16);
-			this.label11.TabIndex = 6;
-			this.label11.Text = "Country-Sales Graph";
 			// 
 			// label12
 			// 
@@ -423,6 +461,60 @@
 			this.label12.TabIndex = 5;
 			this.label12.Text = "A graph of the sales made by the top 5 countries is given below. Only the top 5 c" +
     "ountries are included here.";
+			// 
+			// button4
+			// 
+			this.button4.BackColor = System.Drawing.Color.LightCoral;
+			this.button4.BackgroundImage = global::Project18_DashboardSuperStoreDataset.Properties.Resources.printer;
+			this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.button4.Location = new System.Drawing.Point(351, 10);
+			this.button4.Name = "button4";
+			this.button4.Size = new System.Drawing.Size(76, 50);
+			this.button4.TabIndex = 3;
+			this.button4.UseVisualStyleBackColor = false;
+			// 
+			// button3
+			// 
+			this.button3.BackColor = System.Drawing.Color.LightYellow;
+			this.button3.BackgroundImage = global::Project18_DashboardSuperStoreDataset.Properties.Resources.printer;
+			this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.button3.Location = new System.Drawing.Point(237, 10);
+			this.button3.Name = "button3";
+			this.button3.Size = new System.Drawing.Size(76, 50);
+			this.button3.TabIndex = 2;
+			this.button3.UseVisualStyleBackColor = false;
+			// 
+			// button2
+			// 
+			this.button2.BackColor = System.Drawing.Color.LightCoral;
+			this.button2.BackgroundImage = global::Project18_DashboardSuperStoreDataset.Properties.Resources.checkout;
+			this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.button2.Location = new System.Drawing.Point(123, 10);
+			this.button2.Name = "button2";
+			this.button2.Size = new System.Drawing.Size(76, 50);
+			this.button2.TabIndex = 1;
+			this.button2.UseVisualStyleBackColor = false;
+			// 
+			// button1
+			// 
+			this.button1.BackColor = System.Drawing.Color.LightGreen;
+			this.button1.BackgroundImage = global::Project18_DashboardSuperStoreDataset.Properties.Resources.checkout;
+			this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.button1.Location = new System.Drawing.Point(9, 10);
+			this.button1.Name = "button1";
+			this.button1.Size = new System.Drawing.Size(76, 50);
+			this.button1.TabIndex = 0;
+			this.button1.UseVisualStyleBackColor = false;
+			// 
+			// pictureBox7
+			// 
+			this.pictureBox7.Image = global::Project18_DashboardSuperStoreDataset.Properties.Resources.pie_chart__1_;
+			this.pictureBox7.Location = new System.Drawing.Point(0, 12);
+			this.pictureBox7.Name = "pictureBox7";
+			this.pictureBox7.Size = new System.Drawing.Size(38, 67);
+			this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+			this.pictureBox7.TabIndex = 7;
+			this.pictureBox7.TabStop = false;
 			// 
 			// pictureBox6
 			// 
@@ -484,56 +576,6 @@
 			this.pictureBox1.TabIndex = 3;
 			this.pictureBox1.TabStop = false;
 			// 
-			// label13
-			// 
-			this.label13.AutoSize = true;
-			this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-			this.label13.ForeColor = System.Drawing.Color.Black;
-			this.label13.Location = new System.Drawing.Point(41, 12);
-			this.label13.Name = "label13";
-			this.label13.Size = new System.Drawing.Size(100, 16);
-			this.label13.TabIndex = 8;
-			this.label13.Text = "Priority graph";
-			// 
-			// pictureBox7
-			// 
-			this.pictureBox7.Image = global::Project18_DashboardSuperStoreDataset.Properties.Resources.pie_chart__1_;
-			this.pictureBox7.Location = new System.Drawing.Point(0, 12);
-			this.pictureBox7.Name = "pictureBox7";
-			this.pictureBox7.Size = new System.Drawing.Size(38, 67);
-			this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-			this.pictureBox7.TabIndex = 7;
-			this.pictureBox7.TabStop = false;
-			// 
-			// label14
-			// 
-			this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-			this.label14.ForeColor = System.Drawing.Color.Black;
-			this.label14.Location = new System.Drawing.Point(44, 32);
-			this.label14.Name = "label14";
-			this.label14.Size = new System.Drawing.Size(150, 69);
-			this.label14.TabIndex = 8;
-			this.label14.Text = "It is a graphic table containing the transaction priorities of sales. It has prio" +
-    "rities such as high, medium, low and normal.";
-			// 
-			// label15
-			// 
-			this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-			this.label15.ForeColor = System.Drawing.Color.Black;
-			this.label15.Location = new System.Drawing.Point(6, 13);
-			this.label15.Name = "label15";
-			this.label15.Size = new System.Drawing.Size(426, 50);
-			this.label15.TabIndex = 5;
-			this.label15.Text = resources.GetString("label15.Text");
-			// 
-			// button1
-			// 
-			this.button1.Location = new System.Drawing.Point(9, 10);
-			this.button1.Name = "button1";
-			this.button1.Size = new System.Drawing.Size(76, 50);
-			this.button1.TabIndex = 0;
-			this.button1.UseVisualStyleBackColor = true;
-			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -575,13 +617,13 @@
 			this.groupBox5.ResumeLayout(false);
 			((System.ComponentModel.ISupportInitialize)(this.chart2)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.chart3)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
 			this.ResumeLayout(false);
 
 		}
@@ -627,6 +669,9 @@
 		private System.Windows.Forms.PictureBox pictureBox7;
 		private System.Windows.Forms.Label label15;
 		private System.Windows.Forms.Button button1;
+		private System.Windows.Forms.Button button4;
+		private System.Windows.Forms.Button button3;
+		private System.Windows.Forms.Button button2;
 	}
 }
 

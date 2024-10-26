@@ -73,6 +73,16 @@ namespace Project18_DashboardSuperStoreDataset.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap checkout {
+            get {
+                object obj = ResourceManager.GetObject("checkout", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap line_chart {
             get {
                 object obj = ResourceManager.GetObject("line-chart", resourceCulture);
@@ -116,6 +126,16 @@ namespace Project18_DashboardSuperStoreDataset.Properties {
         internal static System.Drawing.Bitmap pie_chart__1_ {
             get {
                 object obj = ResourceManager.GetObject("pie-chart (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap printer {
+            get {
+                object obj = ResourceManager.GetObject("printer", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

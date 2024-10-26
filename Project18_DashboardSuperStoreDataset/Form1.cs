@@ -55,17 +55,36 @@ namespace Project18_DashboardSuperStoreDataset
 
 			#region Charts
 
-			chart1.Series["Series1"].Points.AddXY("Milano", 53);
-			chart1.Series["Series1"].Points.AddXY("Paris", 47);
-			chart1.Series["Series1"].Points.AddXY("Roma", 66);
+			connection.Open();
+			SqlCommand command5 = new SqlCommand("Select top(7) Country, Count(*) From superstore Group By Country order by COUNT(*) desc", connection);
+			SqlDataReader reader5 = command5.ExecuteReader();
+			while (reader5.Read())
+			{
+				chart1.Series["Series1"].Points.AddXY(reader5[0], reader5[1]);
+			}
+			connection.Close();
 
-			chart2.Series["Series1"].Points.AddXY("Milano", 53);
-			chart2.Series["Series1"].Points.AddXY("Paris", 47);
-			chart2.Series["Series1"].Points.AddXY("Roma", 66);
 
-			chart3.Series["Series1"].Points.AddXY("Milano", 53);
-			chart3.Series["Series1"].Points.AddXY("Paris", 47);
-			chart3.Series["Series1"].Points.AddXY("Roma", 66);
+
+			connection.Open();
+			SqlCommand command6 = new SqlCommand("Select top(3) Country, sum(Quantity) From superstore Group By Country order by sum(quantity) desc", connection);
+			SqlDataReader reader6 = command6.ExecuteReader();
+			while (reader6.Read())
+			{
+				chart2.Series["Series1"].Points.AddXY(reader6[0], reader6[1]);
+			}
+			connection.Close();
+
+
+
+			connection.Open();
+			SqlCommand command7 = new SqlCommand("Select Order_Priority,Count(*) From superstore Group By Order_Priority order by Order_Priority desc", connection);
+			SqlDataReader reader7 = command7.ExecuteReader();
+			while (reader7.Read())
+			{
+				chart3.Series["Series1"].Points.AddXY(reader7[0], reader7[1]);
+			}
+			connection.Close();
 
 			#endregion
 		}
